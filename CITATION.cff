@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this package, cite the code DOI and the accompanying paper."
+title: "paper-a-eval-public: 论文A 评测代码与聚合证据（v0.1.0）"
+type: software
+version: "0.1.0"
+date-released: "2026-11-20"
+license: "MIT"
+authors:
+  - family-names: Yin
+    given-names: Kang
+    affiliation: "Independent Researcher"
+    orcid: "https://orcid.org/0009-0001-2723-1293"
+doi: "10.5281/zenodo.24391434"
+url: "https://zenodo.org/records/24391434"
+repository-code: "https://gitee.com/yin-kang83/paper-a-eval-public"
+references:
+  - type: article
+    title: "泄漏控制与双源验证：金融数值问答的评测方法研究（预印本 v1.0）"
+    doi: "10.5281/zenodo.24191264"
+    authors:
+      - family-names: Yin
+        given-names: Kang
