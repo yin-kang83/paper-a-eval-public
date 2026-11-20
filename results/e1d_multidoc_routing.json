@@ -1,0 +1,314 @@
+{
+ "experiment": "E1d multi-document retrieval routing",
+ "corpus": {
+  "chunks": 72740
+ },
+ "queries": 300,
+ "notes_hit@1": 0.0,
+ "notes_hit@3": 0.0,
+ "notes_hit@5": 0.0,
+ "body_hit@1": 1.0,
+ "note": "复用既有采集（482 家中报 正文+附注）；无 LLM，确定性检索指标",
+ "sample": [
+  {
+   "code": "001368",
+   "name": "通达创智",
+   "label": "交易性金融负债",
+   "top5_types": [
+    "body",
+    "body",
+    "body",
+    "body",
+    "body"
+   ],
+   "notes_hit@1": false,
+   "notes_hit@3": false,
+   "body_hit@1": true
+  },
+  {
+   "code": "300637",
+   "name": "扬帆新材",
+   "label": "应付债券",
+   "top5_types": [
+    "body",
+    "body",
+    "body",
+    "body",
+    "body"
+   ],
+   "notes_hit@1": false,
+   "notes_hit@3": false,
+   "body_hit@1": true
+  },
+  {
+   "code": "688300",
+   "name": "联瑞新材",
+   "label": "短期借款",
+   "top5_types": [
+    "body",
+    "body",
+    "body",
+    "body",
+    "body"
+   ],
+   "notes_hit@1": false,
+   "notes_hit@3": false,
+   "body_hit@1": true
+  },
+  {
+   "code": "300966",
+   "name": "共同药业",
+   "label": "应付债券",
+   "top5_types": [
+    "body",
+    "body",
+    "body",
+    "body",
+    "body"
+   ],
+   "notes_hit@1": false,
+   "notes_hit@3": false,
+   "body_hit@1": true
+  },
+  {
+   "code": "002121",
+   "name": "科陆电子",
+   "label": "应付票据",
+   "top5_types": [
+    "body",
+    "body",
+    "body",
+    "body",
+    "body"
+   ],
+   "notes_hit@1": false,
+   "notes_hit@3": false,
+   "body_hit@1": true
+  },
+  {
+   "code": "688127",
+   "name": "蓝特光学",
+   "label": "短期借款",
+   "top5_types": [
+    "body",
+    "body",
+    "body",
+    "body",
+    "body"
+   ],
+   "notes_hit@1": false,
+   "notes_hit@3": false,
+   "body_hit@1": true
+  },
+  {
+   "code": "603861",
+   "name": "白云电器",
+   "label": "应付债券",
+   "top5_types": [
+    "body",
+    "body",
+    "body",
+    "body",
+    "body"
+   ],
+   "notes_hit@1": false,
+   "notes_hit@3": false,
+   "body_hit@1": true
+  },
+  {
+   "code": "600722",
+   "name": "金牛化工",
+   "label": "租赁负债",
+   "top5_types": [
+    "body",
+    "body",
+    "body",
+    "body",
+    "body"
+   ],
+   "notes_hit@1": false,
+   "notes_hit@3": false,
+   "body_hit@1": true
+  },
+  {
+   "code": "688520",
+   "name": "神州细胞",
+   "label": "短期借款",
+   "top5_types": [
+    "body",
+    "body",
+    "body",
+    "body",
+    "body"
+   ],
+   "notes_hit@1": false,
+   "notes_hit@3": false,
+   "body_hit@1": true
+  },
+  {
+   "code": "688037",
+   "name": "芯源微",
+   "label": "长期借款",
+   "top5_types": [
+    "body",
+    "body",
+    "body",
+    "body",
+    "body"
+   ],
+   "notes_hit@1": false,
+   "notes_hit@3": false,
+   "body_hit@1": true
+  },
+  {
+   "code": "688035",
+   "name": "德邦科技",
+   "label": "长期借款",
+   "top5_types": [
+    "body",
+    "body",
+    "body",
+    "body",
+    "body"
+   ],
+   "notes_hit@1": false,
+   "notes_hit@3": false,
+   "body_hit@1": true
+  },
+  {
+   "code": "920808",
+   "name": "曙光数创",
+   "label": "短期借款",
+   "top5_types": [
+    "body",
+    "body",
+    "body",
+    "body",
+    "body"
+   ],
+   "notes_hit@1": false,
+   "notes_hit@3": false,
+   "body_hit@1": true
+  },
+  {
+   "code": "000887",
+   "name": "中鼎股份",
+   "label": "交易性金融负债",
+   "top5_types": [
+    "body",
+    "body",
+    "body",
+    "body",
+    "body"
+   ],
+   "notes_hit@1": false,
+   "notes_hit@3": false,
+   "body_hit@1": true
+  },
+  {
+   "code": "300070",
+   "name": "碧水源",
+   "label": "长期借款",
+   "top5_types": [
+    "body",
+    "body",
+    "body",
+    "body",
+    "body"
+   ],
+   "notes_hit@1": false,
+   "notes_hit@3": false,
+   "body_hit@1": true
+  },
+  {
+   "code": "603885",
+   "name": "吉祥航空",
+   "label": "短期借款",
+   "top5_types": [
+    "body",
+    "body",
+    "body",
+    "body",
+    "body"
+   ],
+   "notes_hit@1": false,
+   "notes_hit@3": false,
+   "body_hit@1": true
+  },
+  {
+   "code": "300381",
+   "name": "溢多利",
+   "label": "一年内到期的非流动负债",
+   "top5_types": [
+    "body",
+    "body",
+    "body",
+    "body",
+    "body"
+   ],
+   "notes_hit@1": false,
+   "notes_hit@3": false,
+   "body_hit@1": true
+  },
+  {
+   "code": "603281",
+   "name": "江瀚新材",
+   "label": "应付票据",
+   "top5_types": [
+    "body",
+    "body",
+    "body",
+    "body",
+    "body"
+   ],
+   "notes_hit@1": false,
+   "notes_hit@3": false,
+   "body_hit@1": true
+  },
+  {
+   "code": "600903",
+   "name": "贵州燃气",
+   "label": "应付债券",
+   "top5_types": [
+    "body",
+    "body",
+    "body",
+    "body",
+    "body"
+   ],
+   "notes_hit@1": false,
+   "notes_hit@3": false,
+   "body_hit@1": true
+  },
+  {
+   "code": "003031",
+   "name": "中瓷电子",
+   "label": "交易性金融负债",
+   "top5_types": [
+    "body",
+    "body",
+    "body",
+    "body",
+    "body"
+   ],
+   "notes_hit@1": false,
+   "notes_hit@3": false,
+   "body_hit@1": true
+  },
+  {
+   "code": "601111",
+   "name": "中国国航",
+   "label": "交易性金融负债",
+   "top5_types": [
+    "body",
+    "body",
+    "body",
+    "body",
+    "body"
+   ],
+   "notes_hit@1": false,
+   "notes_hit@3": false,
+   "body_hit@1": true
+  }
+ ]
+}

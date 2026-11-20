@@ -1,0 +1,19 @@
+{
+ "experiment": "E1a-scale",
+ "companies": 19,
+ "questions": 36,
+ "by_condition": {
+  "A_closed_book": {
+   "n": 36,
+   "accuracy": 0.0
+  },
+  "B_full_corpus": {
+   "n": 36,
+   "accuracy": 0.4722
+  },
+  "C_heldout": {
+   "n": 36,
+   "accuracy": 0.0
+  }
+ }
+}

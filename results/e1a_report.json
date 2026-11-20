@@ -1,0 +1,19 @@
+{
+ "experiment": "E1a real annual-report QA (6 companies, 2023)",
+ "questions": 29,
+ "by_condition": {
+  "A_closed_book": {
+   "n": 29,
+   "accuracy": 0.0
+  },
+  "B_full_corpus": {
+   "n": 29,
+   "accuracy": 0.0
+  },
+  "C_heldout": {
+   "n": 29,
+   "accuracy": 0.0
+  }
+ },
+ "elapsed_s": 74.0
+}

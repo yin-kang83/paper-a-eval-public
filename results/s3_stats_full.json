@@ -1,0 +1,100 @@
+{
+ "n": 100,
+ "labeled": 100,
+ "human_dist": {
+  "accept_internal": 3,
+  "review": 16,
+  "accept": 59,
+  "reject_pending": 20,
+  "single_source": 2
+ },
+ "human_vs_rule_agreement": 0.84,
+ "human_vs_rule_kappa": 0.7334,
+ "human_vs_modelA_agreement": 0.84,
+ "human_vs_modelA_kappa": 0.7361,
+ "human_vs_modelB_agreement": 0.81,
+ "human_vs_modelB_kappa": 0.6844,
+ "pending_review": [
+  {
+   "id": "S3-020",
+   "item": "非流动负债合计",
+   "value_yi": "0"
+  },
+  {
+   "id": "S3-025",
+   "item": "筹资活动产生的现金流量净额",
+   "value_yi": "-17.29"
+  },
+  {
+   "id": "S3-026",
+   "item": "六、期末现金及现金等价物余额",
+   "value_yi": "0.53"
+  },
+  {
+   "id": "S3-035",
+   "item": "其中:对联营企业和合营企业的投资收益",
+   "value_yi": "0.22"
+  },
+  {
+   "id": "S3-037",
+   "item": "固定资产报废损失",
+   "value_yi": "0"
+  },
+  {
+   "id": "S3-041",
+   "item": "公允价值变动损失",
+   "value_yi": "-0.05"
+  },
+  {
+   "id": "S3-045",
+   "item": "归属于母公司股东权益合计",
+   "value_yi": "262.42"
+  },
+  {
+   "id": "S3-049",
+   "item": "筹资活动现金流出小计",
+   "value_yi": "439.54"
+  },
+  {
+   "id": "S3-052",
+   "item": "归属于母公司所有者的综合收益总额",
+   "value_yi": "3.75"
+  },
+  {
+   "id": "S3-054",
+   "item": "其他应收款(合计)",
+   "value_yi": "0.22"
+  },
+  {
+   "id": "S3-057",
+   "item": "筹资活动现金流出小计",
+   "value_yi": "549.05"
+  },
+  {
+   "id": "S3-060",
+   "item": "八、综合收益总额",
+   "value_yi": "0.3"
+  },
+  {
+   "id": "S3-069",
+   "item": "分配股利、利润或偿付利息所支付的现金",
+   "value_yi": "26.18"
+  },
+  {
+   "id": "S3-078",
+   "item": "三、营业利润",
+   "value_yi": "647.83"
+  },
+  {
+   "id": "S3-081",
+   "item": "减：所得税费用",
+   "value_yi": "4.83"
+  },
+  {
+   "id": "S3-087",
+   "item": "其他应收款",
+   "value_yi": "0.17"
+  }
+ ],
+ "note": "单人工标注：无人类双标 κ；κ 值用于人-模型/人-规则对照；论文报告模型预实验 κ=0.6844 并注明局限"
+}

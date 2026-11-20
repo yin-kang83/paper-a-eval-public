@@ -1,0 +1,264 @@
+{
+ "experiment": "dual verification: structured facts vs PDF extraction",
+ "facts_rows": 6596,
+ "case_truth_rows": 231,
+ "pdf_pypdf_rows": 206,
+ "pdf_pdfplumber_rows": 55,
+ "vs_pypdf": {
+  "overlap": 41,
+  "agree": 22,
+  "agree_rate": 0.5366,
+  "mismatches": [
+   {
+    "key": [
+     "601111",
+     2023,
+     "货币资金"
+    ],
+    "facts_yi": 156.28,
+    "pdf_yi": 0.05,
+    "ratio": 0.0003
+   },
+   {
+    "key": [
+     "601111",
+     2023,
+     "应收账款"
+    ],
+    "facts_yi": 31.83,
+    "pdf_yi": 0.03,
+    "ratio": 0.0011
+   },
+   {
+    "key": [
+     "601111",
+     2023,
+     "存货"
+    ],
+    "facts_yi": 36.83,
+    "pdf_yi": 0.0,
+    "ratio": 0.0001
+   },
+   {
+    "key": [
+     "601111",
+     2023,
+     "使用权资产"
+    ],
+    "facts_yi": 1163.43,
+    "pdf_yi": 0.31,
+    "ratio": 0.0003
+   },
+   {
+    "key": [
+     "601111",
+     2023,
+     "租赁负债"
+    ],
+    "facts_yi": 640.54,
+    "pdf_yi": 0.82,
+    "ratio": 0.0013
+   },
+   {
+    "key": [
+     "601919",
+     2023,
+     "货币资金"
+    ],
+    "facts_yi": 1823.04,
+    "pdf_yi": 11.19,
+    "ratio": 0.0061
+   },
+   {
+    "key": [
+     "601186",
+     2023,
+     "货币资金"
+    ],
+    "facts_yi": 1669.58,
+    "pdf_yi": 0.13,
+    "ratio": 0.0001
+   },
+   {
+    "key": [
+     "601186",
+     2023,
+     "应收账款"
+    ],
+    "facts_yi": 1558.09,
+    "pdf_yi": 0.1,
+    "ratio": 0.0001
+   },
+   {
+    "key": [
+     "601186",
+     2023,
+     "存货"
+    ],
+    "facts_yi": 3076.43,
+    "pdf_yi": 0.46,
+    "ratio": 0.0001
+   },
+   {
+    "key": [
+     "601186",
+     2023,
+     "使用权资产"
+    ],
+    "facts_yi": 71.41,
+    "pdf_yi": 0.06,
+    "ratio": 0.0008
+   },
+   {
+    "key": [
+     "601186",
+     2023,
+     "资产总计"
+    ],
+    "facts_yi": 16630.2,
+    "pdf_yi": 16.63,
+    "ratio": 0.001
+   },
+   {
+    "key": [
+     "601186",
+     2023,
+     "租赁负债"
+    ],
+    "facts_yi": 40.8,
+    "pdf_yi": 0.05,
+    "ratio": 0.0013
+   },
+   {
+    "key": [
+     "601186",
+     2023,
+     "负债合计"
+    ],
+    "facts_yi": 12459.0,
+    "pdf_yi": 12.46,
+    "ratio": 0.001
+   },
+   {
+    "key": [
+     "600377",
+     2023,
+     "货币资金"
+    ],
+    "facts_yi": 8.62,
+    "pdf_yi": 1.93,
+    "ratio": 0.2234
+   },
+   {
+    "key": [
+     "600377",
+     2023,
+     "应收账款"
+    ],
+    "facts_yi": 16.5,
+    "pdf_yi": 9.06,
+    "ratio": 0.5489
+   },
+   {
+    "key": [
+     "600377",
+     2023,
+     "存货"
+    ],
+    "facts_yi": 22.38,
+    "pdf_yi": 0.18,
+    "ratio": 0.0081
+   },
+   {
+    "key": [
+     "600377",
+     2023,
+     "租赁负债"
+    ],
+    "facts_yi": 0.19,
+    "pdf_yi": 0.09,
+    "ratio": 0.5039
+   },
+   {
+    "key": [
+     "000001",
+     2023,
+     "资产总计"
+    ],
+    "facts_yi": 55871.16,
+    "pdf_yi": 0.06,
+    "ratio": 0.0
+   },
+   {
+    "key": [
+     "000001",
+     2023,
+     "负债合计"
+    ],
+    "facts_yi": 51147.88,
+    "pdf_yi": 0.05,
+    "ratio": 0.0
+   }
+  ],
+  "mismatch_count": 19
+ },
+ "vs_pdfplumber": {
+  "overlap": 9,
+  "agree": 6,
+  "agree_rate": 0.6667,
+  "mismatches": [
+   {
+    "key": [
+     "601186",
+     2023,
+     "资产总计"
+    ],
+    "facts_yi": 16630.2,
+    "pdf_yi": 16.63,
+    "ratio": 0.001
+   },
+   {
+    "key": [
+     "601186",
+     2023,
+     "负债合计"
+    ],
+    "facts_yi": 12459.0,
+    "pdf_yi": 12.46,
+    "ratio": 0.001
+   },
+   {
+    "key": [
+     "601186",
+     2023,
+     "净利润"
+    ],
+    "facts_yi": 323.29,
+    "pdf_yi": 0.32,
+    "ratio": 0.001
+   }
+  ],
+  "mismatch_count": 3
+ },
+ "accuracy_vs_truth": [
+  {
+   "source": "structured_sina",
+   "checked": 61,
+   "hit": 61,
+   "hit_rate": 1.0
+  },
+  {
+   "source": "pdf_pypdf",
+   "checked": 6,
+   "hit": 2,
+   "hit_rate": 0.3333
+  },
+  {
+   "source": "pdf_pdfplumber",
+   "checked": 1,
+   "hit": 1,
+   "hit_rate": 1.0
+  }
+ ],
+ "rule": "相对误差 ≤1% 视为一致；不一致 → 待人工（不静默合并）"
+}

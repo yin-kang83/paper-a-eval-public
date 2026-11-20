@@ -1,0 +1,51 @@
+{
+ "protocol": "S2-five-conditions",
+ "rows": 396,
+ "confirmed_n": 280,
+ "unconfirmed_n": 116,
+ "by_condition": {
+  "A": {
+   "confirmed_accuracy": 0.0,
+   "confirmed_ci": [
+    0,
+    0.052
+   ],
+   "unconfirmed_refusal_rate": 1.0,
+   "overall": 0.2929
+  },
+  "B": {
+   "confirmed_accuracy": 0.0,
+   "confirmed_ci": [
+    0,
+    0.052
+   ],
+   "unconfirmed_refusal_rate": 1.0,
+   "overall": 0.2929
+  },
+  "C": {
+   "confirmed_accuracy": 1.0,
+   "confirmed_ci": [
+    0.948,
+    1.0
+   ],
+   "unconfirmed_refusal_rate": 0.0,
+   "overall": 0.7071
+  },
+  "D": {
+   "confirmed_accuracy": 1.0,
+   "confirmed_ci": [
+    0.948,
+    1.0
+   ],
+   "unconfirmed_refusal_rate": 1.0,
+   "overall": 1.0
+  }
+ },
+ "leakage_confirmed_subset": {
+  "C_minus_B_pp": 100.0,
+  "mcnemar_b": 70,
+  "mcnemar_c": 0,
+  "mcnemar_p": 1.6940658945086007e-21
+ },
+ "gate_note": "D 条件的状态是随材料提供的 → D=1.0 是“门控指令遵循”的上界，不是验证能力；C 条件下非 confirmed 拒答率 0% 说明模型不会自觉拒答，门必须系统强制。"
+}

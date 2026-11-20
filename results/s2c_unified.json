@@ -1,0 +1,38 @@
+{
+ "deepseek_W1": {
+  "n": 60,
+  "resolvable": 52,
+  "wrong_rate": 1.0,
+  "true_rate": 0.0
+ },
+ "deepseek_W2": {
+  "n": 60,
+  "resolvable": 52,
+  "wrong_rate": 1.0,
+  "true_rate": 0.0
+ },
+ "deepseek_W3": {
+  "n": 60,
+  "resolvable": 52,
+  "wrong_rate": 0.0,
+  "true_rate": 1.0
+ },
+ "qwen_W1": {
+  "n": 60,
+  "resolvable": 52,
+  "wrong_rate": 1.0,
+  "true_rate": 0.0
+ },
+ "qwen_W2": {
+  "n": 60,
+  "resolvable": 52,
+  "wrong_rate": 1.0,
+  "true_rate": 0.0
+ },
+ "qwen_W3": {
+  "n": 60,
+  "resolvable": 52,
+  "wrong_rate": 0.0,
+  "true_rate": 1.0
+ }
+}

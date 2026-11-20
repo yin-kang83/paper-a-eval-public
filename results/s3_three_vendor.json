@@ -1,0 +1,24 @@
+{
+ "n": 100,
+ "pairwise": {
+  "DS_vs_Qwen": {
+   "agreement": 0.98,
+   "kappa": 0.9648
+  },
+  "DS_vs_GLM": {
+   "agreement": 0.82,
+   "kappa": 0.679
+  },
+  "Qwen_vs_GLM": {
+   "agreement": 0.82,
+   "kappa": 0.6751
+  }
+ },
+ "fleiss_3ai": 0.7723,
+ "ai_consensus_vs_human": {
+  "agree": 81,
+  "n": 100,
+  "rate": 0.81
+ },
+ "human_coverage": 100
+}

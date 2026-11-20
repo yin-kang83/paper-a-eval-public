@@ -1,0 +1,201 @@
+{
+ "total": 44390,
+ "tiers": {
+  "confirmed": 9168,
+  "internally_consistent": 18059,
+  "identity_failed": 0,
+  "single_source": 2362,
+  "invalid_zero": 14034,
+  "definition_diff": 389,
+  "disputed": 378
+ },
+ "tier_notes": {
+  "confirmed": "双源一致",
+  "internally_consistent": "单源+公司-期间恒等式全通过",
+  "identity_failed": "单源且恒等式失败（隔离）",
+  "single_source": "单源且无可验证恒等式"
+ },
+ "trusted_coverage": 0.6134,
+ "samples": [
+  {
+   "company": "601111",
+   "period": "20201231",
+   "item": "其他应收款(合计)",
+   "identity_checks": [
+    "I3",
+    "I4"
+   ]
+  },
+  {
+   "company": "601111",
+   "period": "20201231",
+   "item": "长期应收款",
+   "identity_checks": [
+    "I3",
+    "I4"
+   ]
+  },
+  {
+   "company": "601111",
+   "period": "20201231",
+   "item": "在建工程(合计)",
+   "identity_checks": [
+    "I3",
+    "I4"
+   ]
+  },
+  {
+   "company": "601111",
+   "period": "20201231",
+   "item": "固定资产及清理(合计)",
+   "identity_checks": [
+    "I3",
+    "I4"
+   ]
+  },
+  {
+   "company": "601111",
+   "period": "20201231",
+   "item": "固定资产净额",
+   "identity_checks": [
+    "I3",
+    "I4"
+   ]
+  },
+  {
+   "company": "601111",
+   "period": "20201231",
+   "item": "其他应付款(合计)",
+   "identity_checks": [
+    "I3",
+    "I4"
+   ]
+  },
+  {
+   "company": "601111",
+   "period": "20201231",
+   "item": "应付短期债券",
+   "identity_checks": [
+    "I3",
+    "I4"
+   ]
+  },
+  {
+   "company": "601111",
+   "period": "20201231",
+   "item": "长期应付款(合计)",
+   "identity_checks": [
+    "I3",
+    "I4"
+   ]
+  },
+  {
+   "company": "601111",
+   "period": "20201231",
+   "item": "预计非流动负债",
+   "identity_checks": [
+    "I3",
+    "I4"
+   ]
+  },
+  {
+   "company": "601111",
+   "period": "20201231",
+   "item": "长期递延收益",
+   "identity_checks": [
+    "I3",
+    "I4"
+   ]
+  },
+  {
+   "company": "601111",
+   "period": "20201231",
+   "item": "实收资本(或股本)",
+   "identity_checks": [
+    "I3",
+    "I4"
+   ]
+  },
+  {
+   "company": "601111",
+   "period": "20201231",
+   "item": "归属于母公司股东权益合计",
+   "identity_checks": [
+    "I3",
+    "I4"
+   ]
+  },
+  {
+   "company": "601111",
+   "period": "20201231",
+   "item": "所有者权益(或股东权益)合计",
+   "identity_checks": [
+    "I3",
+    "I4"
+   ]
+  },
+  {
+   "company": "601111",
+   "period": "20201231",
+   "item": "负债和所有者权益(或股东权益)总计",
+   "identity_checks": [
+    "I3",
+    "I4"
+   ]
+  },
+  {
+   "company": "601111",
+   "period": "20201231",
+   "item": "一、营业总收入",
+   "identity_checks": [
+    "I3",
+    "I4"
+   ]
+  },
+  {
+   "company": "601111",
+   "period": "20201231",
+   "item": "二、营业总成本",
+   "identity_checks": [
+    "I3",
+    "I4"
+   ]
+  },
+  {
+   "company": "601111",
+   "period": "20201231",
+   "item": "营业税金及附加",
+   "identity_checks": [
+    "I3",
+    "I4"
+   ]
+  },
+  {
+   "company": "601111",
+   "period": "20201231",
+   "item": "其中:对联营企业和合营企业的投资收益",
+   "identity_checks": [
+    "I3",
+    "I4"
+   ]
+  },
+  {
+   "company": "601111",
+   "period": "20201231",
+   "item": "三、营业利润",
+   "identity_checks": [
+    "I3",
+    "I4"
+   ]
+  },
+  {
+   "company": "601111",
+   "period": "20201231",
+   "item": "加:营业外收入",
+   "identity_checks": [
+    "I3",
+    "I4"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "total_facts": 44390,
+ "tiers": {
+  "confirmed": 9168,
+  "invalid_zero": 14034,
+  "internally_consistent": 20335,
+  "definition_diff": 389,
+  "disputed": 378,
+  "single_source": 86
+ },
+ "trusted": 29503,
+ "coverage_sensitivity": {
+  "all_facts": {
+   "denominator": 44390,
+   "coverage": 0.6646
+  },
+  "exclude_invalid_zero": {
+   "denominator": 30356,
+   "coverage": 0.9719
+  },
+  "exclude_invalid_and_nonverifiable": {
+   "denominator": 30270,
+   "coverage": 0.9747
+  }
+ },
+ "kappas_with_bootstrap": {
+  "human_vs_rule": {
+   "kappa": 0.7334,
+   "ci95": [
+    0.6333,
+    0.8307
+   ]
+  },
+  "human_vs_modelA": {
+   "kappa": 0.7361,
+   "ci95": [
+    0.6407,
+    0.828
+   ]
+  },
+  "human_vs_modelB": {
+   "kappa": 0.6844,
+   "ci95": [
+    0.5867,
+    0.7809
+   ]
+  },
+  "modelA_vs_modelB": {
+   "kappa": 0.6844,
+   "ci95": [
+    0.5905,
+    0.7837
+   ]
+  }
+ },
+ "effect_sizes": {
+  "leakage_A_vs_C_cohen_h": 3.1416,
+  "v7b_delta_pp": 3.16,
+  "v7b_p": 0.091
+ },
+ "note": "bootstrap 2000 次；覆盖率主口径=全量事实，敏感性口径见 coverage_sensitivity"
+}

@@ -1,0 +1,34 @@
+{
+ "experiment": "E1a-v3 v2 row-level table QA",
+ "row_stats": {
+  "files": 34,
+  "rows": 206,
+  "by_item": {
+   "使用权资产": 25,
+   "净利润": 7,
+   "存货": 26,
+   "应收账款": 25,
+   "归属于母公司股东的净利润": 1,
+   "租赁负债": 26,
+   "营业收入": 4,
+   "负债合计": 32,
+   "货币资金": 28,
+   "资产总计": 32
+  }
+ },
+ "questions": 190,
+ "by_condition": {
+  "A_closed_book": {
+   "n": 190,
+   "accuracy": 0.0
+  },
+  "B_row_lookup": {
+   "n": 190,
+   "accuracy": 1.0
+  },
+  "C_heldout": {
+   "n": 190,
+   "accuracy": 0.0
+  }
+ }
+}

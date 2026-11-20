@@ -1,0 +1,103 @@
+{
+ "protocol": "S2b",
+ "questions": 360,
+ "prereg_sha": "437d13e4d64b5b799265f79dab5b2a592f5b18b6e8e6121234d3825af0e6fb7c",
+ "by_model": {
+  "deepseek": {
+   "A": {
+    "confirmed_n": 300,
+    "confirmed_acc": 0.0,
+    "confirmed_ci": [
+     0,
+     0.013
+    ],
+    "unconfirmed_n": 60,
+    "unconfirmed_refusal": 1.0
+   },
+   "B": {
+    "confirmed_n": 300,
+    "confirmed_acc": 0.0,
+    "confirmed_ci": [
+     0,
+     0.013
+    ],
+    "unconfirmed_n": 60,
+    "unconfirmed_refusal": 1.0
+   },
+   "C": {
+    "confirmed_n": 300,
+    "confirmed_acc": 1.0,
+    "confirmed_ci": [
+     0.987,
+     1.0
+    ],
+    "unconfirmed_n": 60,
+    "unconfirmed_refusal": 0.0
+   },
+   "D": {
+    "confirmed_n": 300,
+    "confirmed_acc": 1.0,
+    "confirmed_ci": [
+     0.987,
+     1.0
+    ],
+    "unconfirmed_n": 60,
+    "unconfirmed_refusal": 1.0
+   },
+   "leakage": {
+    "b": 300,
+    "c": 0,
+    "p": 9.818186930595453e-91,
+    "C_minus_B_pp": 100.0
+   }
+  },
+  "qwen": {
+   "A": {
+    "confirmed_n": 100,
+    "confirmed_acc": 0.0,
+    "confirmed_ci": [
+     0,
+     0.037
+    ],
+    "unconfirmed_n": 0,
+    "unconfirmed_refusal": null
+   },
+   "B": {
+    "confirmed_n": 100,
+    "confirmed_acc": 0.0,
+    "confirmed_ci": [
+     0,
+     0.037
+    ],
+    "unconfirmed_n": 0,
+    "unconfirmed_refusal": null
+   },
+   "C": {
+    "confirmed_n": 100,
+    "confirmed_acc": 1.0,
+    "confirmed_ci": [
+     0.963,
+     1.0
+    ],
+    "unconfirmed_n": 0,
+    "unconfirmed_refusal": null
+   },
+   "D": {
+    "confirmed_n": 100,
+    "confirmed_acc": 1.0,
+    "confirmed_ci": [
+     0.963,
+     1.0
+    ],
+    "unconfirmed_n": 0,
+    "unconfirmed_refusal": null
+   },
+   "leakage": {
+    "b": 100,
+    "c": 0,
+    "p": 1.5777218104420236e-30,
+    "C_minus_B_pp": 100.0
+   }
+  }
+ }
+}

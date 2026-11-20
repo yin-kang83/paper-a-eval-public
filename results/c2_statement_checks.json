@@ -1,0 +1,27 @@
+{
+ "total": 44390,
+ "tiers": {
+  "confirmed": 9168,
+  "invalid_zero": 14034,
+  "internally_consistent": 20335,
+  "definition_diff": 389,
+  "disputed": 378,
+  "single_source": 86
+ },
+ "upgraded_by_statement": 20335,
+ "upgraded_detail": {
+  "balance_by_stmt": 9804,
+  "income_by_stmt": 5923,
+  "cashflow_by_stmt": 4608
+ },
+ "trusted_coverage": 0.6646,
+ "checks": {
+  "C1": "经营+投资+筹资+汇率=净增加额",
+  "C2": "期初+净增=期末",
+  "P1": "营业利润+营业外收入−支出=利润总额",
+  "P2": "利润总额−所得税=净利润",
+  "P3": "归母+少数股东=净利润",
+  "B1": "负债+权益=资产"
+ },
+ "note": "报表级勾稽补充后，单源事实可按所属报表升级；未通过者保持 single_source"
+}

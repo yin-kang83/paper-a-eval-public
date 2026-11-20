@@ -1,0 +1,20 @@
+{
+ "experiment": "E1a v2 real annual-report QA",
+ "questions_total": 29,
+ "questions_valid": 25,
+ "by_condition": {
+  "A_closed_book": {
+   "n": 25,
+   "accuracy": 0.0
+  },
+  "B_full_corpus": {
+   "n": 25,
+   "accuracy": 0.8
+  },
+  "C_heldout": {
+   "n": 25,
+   "accuracy": 0.0
+  }
+ },
+ "elapsed_s": 65.4
+}

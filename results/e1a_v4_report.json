@@ -1,0 +1,19 @@
+{
+ "experiment": "E1a-v4 structured fact QA",
+ "questions": 112,
+ "source": "Sina finance statements (validated 30/30 vs case truths)",
+ "by_condition": {
+  "A_closed_book": {
+   "n": 112,
+   "accuracy": 0.0
+  },
+  "B_fact_lookup": {
+   "n": 112,
+   "accuracy": 1.0
+  },
+  "C_heldout": {
+   "n": 112,
+   "accuracy": 0.0
+  }
+ }
+}
